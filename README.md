@@ -9,13 +9,13 @@
 **2. Features with Different Variances:**
 * Linear models are sensitive to the scale of features. Features with larger variances can dominate the optimization process.
 * Scaling features (e.g., using StandardScaler or MinMaxScaler) is important to ensure fair contributions from all features during training.
-  
+
 **3. Presence of Outliers:**
 
 * Linear models are sensitive to outliers, which can distort the model's coefficients and predictions.
 * Outliers can have a substantial impact on the model's fit.
 * Robust linear models or outlier removal techniques (e.g., trimming, winsorization) may be necessary.
-  
+
 **4. Collinearity:**
 * High collinearity (correlation) between features can lead to multicollinearity issues, affecting the stability and interpretability of coefficient estimates.
 * VIF (Variance Inflation Factor) analysis can help identify and address collinearity by removing redundant or correlated features.
